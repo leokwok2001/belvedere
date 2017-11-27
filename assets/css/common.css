@@ -1,0 +1,42 @@
+body {
+	background-color: #FFFFFF;
+}
+
+#contentDiv {
+  background-color: #FFFFFF;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.container-fluid {
+	height: 100%;
+	max-width: 1200px;
+}
+
+/* Note: the background image can vary from page to page */
+.jumbotron {
+	position: relative;
+	background: #7EC0EE url("../images/o-tour-bus-facebook.jpg") center center;
+	color: #FFFFFF;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	overflow: hidden;
+	margin-bottom: 0;
+}
+#addForm .has-feedback .form-control-feedback {
+    top: 0;
+    right: -15px;
+}
+#updateForm .has-feedback .form-control-feedback {
+    top: 0;
+    right: -15px;
+}
+#searchForm .has-feedback .form-control-feedback {
+    top: 0;
+    right: -15px;
+}
